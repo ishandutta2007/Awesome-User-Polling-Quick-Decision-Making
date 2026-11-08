@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
@@ -60,85 +60,85 @@ Below is a detailed benchmark of commercial, cloud-hosted User Polling and Quick
 Self-hosted, transparent, and privacy-respecting User Polling and Quick Decision Making software. Repositories are sorted in descending order by GitHub stargazer count:
 
 ### 1. [lukevella/rallly](https://github.com/lukevella/rallly) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)  
 **Tech Stack:** Next.js / TypeScript / Prisma / PostgreSQL / Tailwind CSS | **License:** AGPL-3.0 ⚖️  
 Rallly is the leading open-source alternative to Doodle and When2meet for **scheduling polls**. Create a poll with proposed dates and times, share the link, and participants can mark their availability without creating accounts. Features include an intuitive availability grid, discussion comments, email notifications, calendar invite finalization, and support for 10+ languages. 🌐  
 - 🎯 **Best for:** Teams and organizations needing a self-hosted meeting scheduler without participant account barriers.
 
 ### 2. [loomio/loomio](https://github.com/loomio/loomio) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers)  
 **Tech Stack:** Ruby on Rails / Vue.js / PostgreSQL / Docker | **License:** AGPL-3.0 ⚖️  
 Loomio is an established open-source collaborative decision-making platform designed to help organizations, cooperatives, and communities make decisions together. It supports rich polling formats including consensus voting, proposal consent, dot-voting, ranked-choice (instant-runoff), and time-limited deliberations. 🤝  
 - 🎯 **Best for:** Distributed teams, DAOs, cooperatives, and non-profits seeking structured group consensus and formal decision making.
 
 ### 3. [decidim/decidim](https://github.com/decidim/decidim) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/decidim/decidim?style=social&color=white)](https://github.com/decidim/decidim/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/decidim/decidim?style=social&color=white)](https://github.com/decidim/decidim/stargazers)  
 **Tech Stack:** Ruby on Rails / Node.js / PostgreSQL / Docker | **License:** AGPL-3.0 ⚖️  
 Decidim is a participatory democracy and civic polling framework developed for governments, public institutions, and large associations. It allows organizations to host public consultations, participatory budgeting votes, citizen assemblies, and verifiable decision processes. 🏛️  
 - 🎯 **Best for:** Municipalities, civic organizations, universities, and large communities running large-scale voting consultations.
 
 ### 4. [ClaperCo/Claper](https://github.com/ClaperCo/Claper) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/ClaperCo/Claper?style=social&color=white)](https://github.com/ClaperCo/Claper/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/ClaperCo/Claper?style=social&color=white)](https://github.com/ClaperCo/Claper/stargazers)  
 **Tech Stack:** Elixir / Phoenix / LiveView / WebSockets | **License:** AGPL-3.0 ⚖️  
 Claper is an open-source, real-time alternative to Slido, AhaSlides, and Mentimeter for **live audience engagement**. Presenters can upload slides or create presentations, while audience members join via QR code on mobile devices to submit questions, upvote Q&A topics, vote in live polls, and express emoji reactions in real time. 👏  
 - 🎯 **Best for:** Conference speakers, workshop facilitators, and educators wanting a self-hosted live interactive presentation tool.
 
 ### 5. [fsinfuhh/Bitpoll](https://github.com/fsinfuhh/Bitpoll) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/fsinfuhh/Bitpoll?style=social&color=white)](https://github.com/fsinfuhh/Bitpoll/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/fsinfuhh/Bitpoll?style=social&color=white)](https://github.com/fsinfuhh/Bitpoll/stargazers)  
 **Tech Stack:** Python / Django / PostgreSQL / Docker | **License:** GPL-3.0 ⚖️  
 Bitpoll (originally developed at TU Wien / FSInf) is a self-hosted polling application for coordinating dates, meeting times, and multi-choice questions. It provides both anonymous and authenticated voting, fine-grained access tokens, and a clean interface without third-party tracking. 🔒  
 - 🎯 **Best for:** Academic faculties and privacy-centric groups looking for a clean, Python-based Doodle alternative.
 
 ### 6. [devmahmud/Django-Poll-App](https://github.com/devmahmud/Django-Poll-App) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/devmahmud/Django-Poll-App?style=social&color=white)](https://github.com/devmahmud/Django-Poll-App/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/devmahmud/Django-Poll-App?style=social&color=white)](https://github.com/devmahmud/Django-Poll-App/stargazers)  
 **Tech Stack:** Python / Django / Bootstrap / SQLite / PostgreSQL | **License:** MIT ⚖️  
 A full-featured polling web application built with Django. It provides authentication, poll creation, choice management, vote tracking with duplicate vote prevention, search filtering, and real-time result percentage calculation. 🐍  
 - 🎯 **Best for:** Developers looking for a customizable, battle-tested Python/Django base for embedding polling systems into existing portals.
 
 ### 7. [nextcloud/polls](https://github.com/nextcloud/polls) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/nextcloud/polls?style=social&color=white)](https://github.com/nextcloud/polls/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/polls?style=social&color=white)](https://github.com/nextcloud/polls/stargazers)  
 **Tech Stack:** PHP / Vue.js / TypeScript / Nextcloud App API | **License:** AGPL-3.0 ⚖️  
 An official community app for Nextcloud that turns any self-hosted cloud instance into an event-scheduling and opinion-polling hub. Features include anonymous or public voting, integration with Nextcloud address books and calendar invitations, access control, and encrypted shares. ☁️  
 - 🎯 **Best for:** Existing Nextcloud users and organizations wanting integrated meeting polls and survey collection without separate servers.
 
 ### 8. [hartwork/jawanndenn](https://github.com/hartwork/jawanndenn) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/hartwork/jawanndenn?style=social&color=white)](https://github.com/hartwork/jawanndenn/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/hartwork/jawanndenn?style=social&color=white)](https://github.com/hartwork/jawanndenn/stargazers)  
 **Tech Stack:** Python / Django / React / TypeScript / SQLite / Docker | **License:** AGPL-3.0 ⚖️  
 Jawanndenn is a lightweight, libre web application designed specifically to schedule meetings and coordinate group decisions without requiring accounts or tracking user cookies. Supports date picking, custom option voting, and instant Docker deployment. ⏱️  
 - 🎯 **Best for:** Individuals and small sysadmin teams looking for a low-resource scheduling poll tool.
 
 ### 9. [framasoft/framadate](https://github.com/framasoft/framadate) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/framasoft/framadate?style=social&color=white)](https://github.com/framasoft/framadate/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/framasoft/framadate?style=social&color=white)](https://github.com/framasoft/framadate/stargazers)  
 **Tech Stack:** PHP / MariaDB / JavaScript | **License:** CeCILL-B (GPL-compatible) ⚖️  
 Framadate is the long-standing French libre polling platform developed by the non-profit Framasoft. It allows anyone to create meeting availability polls or generic multi-choice decision polls with custom expiration dates and link-based voting. 🥖  
 - 🎯 **Best for:** Non-profits and educational bodies seeking a proven, battle-tested PHP polling tool.
 
 ### 10. [manfredsteger/polly](https://github.com/manfredsteger/polly) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/manfredsteger/polly?style=social&color=white)](https://github.com/manfredsteger/polly/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/manfredsteger/polly?style=social&color=white)](https://github.com/manfredsteger/polly/stargazers)  
 **Tech Stack:** React / Express / Node.js / PostgreSQL / Docker | **License:** MIT ⚖️  
 A modern self-hosted polling and scheduling application designed for teams. Supports schedule polls, booking lists, and multi-question surveys with email-based voter verification, real-time WebSocket results, ICS calendar exports, and PWA capabilities. ⚡  
 - 🎯 **Best for:** Modern engineering teams wanting an integrated scheduling and survey tool with WebSocket updates.
 
 ### 11. [Rishi-ZAiFi/open.mentimeter](https://github.com/Rishi-ZAiFi/open.mentimeter) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/Rishi-ZAiFi/open.mentimeter?style=social&color=white)](https://github.com/Rishi-ZAiFi/open.mentimeter/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Rishi-ZAiFi/open.mentimeter?style=social&color=white)](https://github.com/Rishi-ZAiFi/open.mentimeter/stargazers)  
 **Tech Stack:** React / Node.js / Socket.io / CSS3 | **License:** MIT ⚖️  
 A local-first, zero-cloud alternative to Mentimeter designed to run offline over local area networks (LAN) or portable Wi-Fi hotspots. Features include presenter view, live multiple-choice quizzes with timer speed bonuses, word clouds, and anonymous Q&A upvoting. 📶  
 - 🎯 **Best for:** Offline workshops, field training, and privacy-sensitive air-gapped environments.
 
 ### 12. [imambujshukla7/prashna](https://github.com/imambujshukla7/prashna) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/imambujshukla7/prashna?style=social&color=white)](https://github.com/imambujshukla7/prashna/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/imambujshukla7/prashna?style=social&color=white)](https://github.com/imambujshukla7/prashna/stargazers)  
 **Tech Stack:** Node.js / Express / React / WebSockets | **License:** MIT ⚖️  
 A local-first live audience Q&A and quiz software platform designed for interactive town halls, webinars, and classroom lectures with anonymous audience voting and upvoting. ❓  
 - 🎯 **Best for:** Interactive lecture sessions needing anonymous audience feedback and quick quiz evaluations.
 
 ### 13. [nearbycoder/qikpoll](https://github.com/nearbycoder/qikpoll) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/nearbycoder/qikpoll?style=social&color=white)](https://github.com/nearbycoder/qikpoll/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/nearbycoder/qikpoll?style=social&color=white)](https://github.com/nearbycoder/qikpoll/stargazers)  
 **Tech Stack:** TypeScript / Bun / React 19 / Redis / WebSockets | **License:** MIT ⚖️  
 A lightweight StrawPoll-style application built for high-speed, no-signup polling with live WebSocket updates, Redis TTL expiration, anti-repeat vote guardrails, and an MCP (Model Context Protocol) API endpoint for AI agents. 🚀  
 - 🎯 **Best for:** Developers looking for modern Redis-backed live polling and AI agent integration.
 
 ### 14. [danielhn/librepolls](https://github.com/danielhn/librepolls) 🌟
-[![GitHub stars](https://img.shields.io/github/stars/danielhn/librepolls?style=social&color=white)](https://github.com/danielhn/librepolls/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/danielhn/librepolls?style=social&color=white)](https://github.com/danielhn/librepolls/stargazers)  
 **Tech Stack:** PHP / Laravel / Docker Compose | **License:** AGPL-3.0 ⚖️  
 A privacy-respecting self-hosted StrawPoll alternative that allows creating instant multi-choice polls with IP and browser-based anti-ballot stuffing mechanisms without requiring participant accounts. 🛡️  
 - 🎯 **Best for:** Minimalist self-hosted quick community polling.
