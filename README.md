@@ -1,173 +1,197 @@
-# Awesome-User-Polling-Quick-Decision-Making
-
 # Awesome User Polling & Quick Decision Making
 
-> A curated list of top User Polling and Quick Decision Making platforms — both SaaS/Hosted commercial solutions and open-source alternatives for live audience polling, scheduling polls, and rapid group decisions.  
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome User Polling & Quick Decision Making Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-User-Polling-Quick-Decision-Making"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+</p>
+
+> A curated collection of leading **User Polling and Quick Decision Making software** — featuring commercial SaaS audience response systems (live polling, meeting engagement, opinion scales) and production-grade self-hosted open-source alternatives for meeting scheduling, consensus deliberation, and instant anonymous voting.
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Poll Everywhere](#poll-everywhere)
-  - [Slido](#slido)
-  - [Mentimeter](#mentimeter)
-  - [Kahoot!](#kahoot)
-  - [Doodle](#doodle)
-  - [StrawPoll](#strawpoll)
-  - [Polly for Teams](#polly-for-teams)
-  - [Typeform Opinion Scale](#typeform-opinion-scale)
 - [Open-Source Software](#-open-source-software)
-  - [Rallly](#rallly)
-  - [Claper](#claper)
-  - [Bitpoll](#bitpoll)
-  - [Framadate](#framadate)
-  - [Librepolls](#librepolls)
-  - [QikPoll](#qikpoll)
-  - [Prashna](#prashna)
-  - [Polly (manfredsteger)](#polly-manfredsteger)
-  - [open.mentimeter](#openmentimeter)
-  - [CEDIS Deck Manager](#cedis-deck-manager)
 - [Comparison at a Glance](#-comparison-at-a-glance)
+- [Evaluation & Selection Criteria](#-evaluation--selection-criteria)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global market for audience response systems, interactive polling, and live engagement software is valued at approximately **$2.5B to $4.2B**, expanding within the broader **$25B+** enterprise customer and workforce engagement software industry at an expected **7% to 15% CAGR**. The sector exhibits a **moderately fragmented landscape at the point-solution tier** (with specialized standalone tools competing fiercely across live presentation polls, scheduling matrices, and micro-surveys), while **consolidating at the enterprise level** as digital workplace giants (Cisco's acquisition of Slido, TX Group's ownership of Doodle, and Goldman Sachs' buy-privatization of Kahoot!) absorb top engagement tools into unified enterprise suites.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted User Polling and Quick Decision Making platforms. These are not open-source but are included as reference points for feature comparison.
+Below is a detailed benchmark of commercial, cloud-hosted User Polling and Quick Decision Making platforms sorted in descending order by estimated company valuation / annual revenue:
 
-### Poll Everywhere
-**Type:** Live audience polling and engagement  
-Poll Everywhere is a long-standing platform for live polling during presentations, meetings, and classes. Supports multiple choice, open-ended, word clouds, Q&A, and surveys. Participants respond via web, SMS, or app. It is a direct commercial reference point for open-source alternatives like CEDIS Deck Manager [citation:9].
-
-### Slido
-**Type:** Q&A and live polling for meetings  
-Slido (Cisco) focuses on live Q&A, polls, and quizzes integrated into video conferencing tools. Widely used for meetings and events to collect questions and gauge audience sentiment in real time. Open-source alternatives explicitly position themselves against Slido, including Claper [citation:1].
-
-### Mentimeter
-**Type:** Interactive presentations and live polling  
-Mentimeter enables presenters to create interactive slides with polls, word clouds, quizzes, and Q&A. Participants respond from their phones. A frequent reference point for open-source alternatives like Claper and open.mentimeter [citation:1][citation:14].
-
-### Kahoot!
-**Type:** Gamified quizzes and live competitions  
-Kahoot! is the dominant gamified quiz platform for classrooms and training. Participants compete on leaderboards in real time. Open-source alternatives exist for education-focused use cases, including CEDIS Deck Manager and Prashna [citation:9][citation:13].
-
-### Doodle
-**Type:** Scheduling polls for group availability  
-Doodle is the most recognized tool for finding a meeting time across a group. Participants vote on proposed dates without needing accounts. Rallly is the most direct open-source alternative to Doodle [citation:2][citation:3].
-
-### StrawPoll
-**Type:** Quick anonymous polls  
-StrawPoll provides instant, no-signup polls for quick decisions. Librepolls is explicitly inspired by the now-defunct StrawPoll.me, and QikPoll is described as a "StrawPoll-style" app [citation:5][citation:11].
-
-### Polly for Teams
-**Type:** Polling within Microsoft Teams  
-Polly integrates directly into Microsoft Teams for quick polls, surveys, and scheduling within the chat interface. Microsoft provides sample code for building custom Teams polling apps, though these are samples rather than production alternatives [citation:6][citation:12].
-
-### Typeform Opinion Scale
-**Type:** Survey-based opinion collection  
-Typeform's Opinion Scale is a survey question type for collecting rated feedback rather than live polling. It is included here as a reference point for the broader "quick decision" category, though it is not a live polling tool.
+| Platform | Company Valuation / Revenue | Starting Paid Tier Price | Free Tier Limits & Details | Key Features & Focus |
+|:---|:---|:---|:---|:---|
+| **Kahoot!** | **$1.7B** *(Acquired by Goldman Sachs PE consortium; >$150M ARR)* | **$19/month** *(Kahoot! 360 Pro Start, billed annually; personal/study plans from $3.99/mo)* | **Permanently free (Kahoot! Go)**: Capped at **10 players** per live session (or up to 40 players for verified K-12 school teachers; free business trial limited to 3 players). | Gamified live quizzes, interactive team competitions, trivia leaderboards, and corporate training challenges. |
+| **Doodle** | **~$1.1B** *(Parent TX Group market cap; Doodle ARR estimated >$20M)* | **$11/user/month** *(Pro plan billed annually; or $15/month billed monthly)* | **Permanently free**: Ad-supported plan capped at **1 active group poll**, max **10 time slots per poll**, 1 booking page, and 1 active 1:1 meeting. | World-recognized calendar scheduling polls for groups, meeting availability polling, and automated booking pages. |
+| **Typeform (Opinion Scale)** | **$935M** *(Valuation post Series C; ~$70M–$90M+ ARR)* | **$28/month** *(Basic plan billed annually; or $39/month billed monthly)* | **Permanently free**: Capped at **10 responses per month** across all active forms, 10 questions per form, and includes Typeform branding. | Conversational form surveys, 1-10 opinion scale polling, Net Promoter Score (NPS) collection, and interactive web flows. |
+| **Mentimeter** | **$384M** *(Valuation; ~$60M ARR)* | **$11.99/presenter/month** *(Basic plan billed annually at $144/year)* | **Permanently free**: Capped at **50 participants per month**; provides unlimited slide decks, presentations, and core question formats. | Live interactive presentation slides, word clouds, audience Q&A, rating scales, and real-time visualization. |
+| **Slido** | **$70B+ (Parent Cisco)** *(Estimated Slido standalone ARR ~$20M–$26M)* | **$12.50/month** *(Engage plan billed annually at $150/year for 1 user)* | **Permanently free (Basic)**: Capped at **100 participants per event**, up to **3 polls per event**, and 1 quiz (max 30 questions per event). | Real-time meeting Q&A, upvoting, live audience polls, Webex/Teams/Zoom integrations, and enterprise summits. |
+| **Polly for Teams** | **~$8.2M total venture funding** *(Estimated ARR ~$5M–$8M)* | **$24/sender/month** *(Standard team tier billed annually; or $29/month monthly)* | **Permanently free**: Capped at **25 total responses per month**, 30-day results history, basic scheduling, and default poll templates. | Native in-chat polling, standup retrospectives, quick pulse checks, and surveys directly inside Microsoft Teams and Slack. |
+| **Poll Everywhere** | **Bootstrapped** *(Estimated ARR ~$11M–$12M)* | **$10/month** *(Present plan billed annually at $120/year; or $84/mo for multi-user Engage)* | **Permanently free (Intro Plan)**: Capped at **40 responses per activity/poll**, unlimited questions, and 10 AI poll generator prompts/month. | Live audience polling via web/SMS, presentation slide add-ins (PowerPoint, Keynote, Google Slides), and word clouds. |
+| **StrawPoll** | **Bootstrapped / Independent** *(Estimated ARR ~$1M–$2M)* | **$10/month** *(Ad-free premium creator plan with extended analytics)* | **Permanently free**: **Unlimited polls and unlimited votes/participants**; ad-supported, with duplicate vote prevention capped at 1,000 voters. | Instant anonymous polling with no user registration required, real-time vote visualization, and embeddable widgets. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven User Polling and Quick Decision Making tools. The open-source ecosystem splits into **scheduling polls** (Rallly, Bitpoll, Framadate) and **live audience interaction** (Claper, Prashna, open.mentimeter).
+Self-hosted, transparent, and privacy-respecting User Polling and Quick Decision Making software. Repositories are sorted in descending order by GitHub stargazer count:
 
-### Rallly
-**Stack:** Next.js / TypeScript / Prisma / PostgreSQL | **License:** AGPLv3 [citation:3]  
-Rallly is the leading open-source alternative to Doodle, focused on **scheduling polls**. Create a poll with proposed dates, share the link, and participants vote without creating accounts [citation:2][citation:3]. Features include an availability grid, comments on the poll, notifications, finalizing a date with calendar invites, and support for 10+ languages [citation:3]. Self-hosting is supported via Docker with PostgreSQL and optional MinIO for storage [citation:2].  
-**Best for:** Teams and organizers needing a self-hosted Doodle replacement for meeting scheduling without participant accounts.
+### 1. [lukevella/rallly](https://github.com/lukevella/rallly)
+[![GitHub stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)  
+**Tech Stack:** Next.js / TypeScript / Prisma / PostgreSQL / Tailwind CSS | **License:** AGPL-3.0  
+Rallly is the leading open-source alternative to Doodle and When2meet for **scheduling polls**. Create a poll with proposed dates and times, share the link, and participants can mark their availability without creating accounts. Features include an intuitive availability grid, discussion comments, email notifications, calendar invite finalization, and support for 10+ languages.  
+- **Best for:** Teams and organizations needing a self-hosted meeting scheduler without participant account barriers.
 
-### Claper
-**Stack:** (Check repository) | **License:** (Check repository)  
-Claper is explicitly described as an open-source alternative to Slido, AhaSlides, and Mentimeter [citation:1]. It targets live audience interaction during presentations and events. Available for self-hosting.  
-**Best for:** Presenters wanting a self-hosted Slido/Mentimeter alternative for live polls and audience engagement.
+### 2. [loomio/loomio](https://github.com/loomio/loomio)
+[![GitHub stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers)  
+**Tech Stack:** Ruby on Rails / Vue.js / PostgreSQL / Docker | **License:** AGPL-3.0  
+Loomio is an established open-source collaborative decision-making platform designed to help organizations, cooperatives, and communities make decisions together. It supports rich polling formats including consensus voting, proposal consent, dot-voting, ranked-choice (instant-runoff), and time-limited deliberations.  
+- **Best for:** Distributed teams, DAOs, cooperatives, and non-profits seeking structured group consensus and formal decision making.
 
-### Bitpoll
-**Stack:** Python / Docker | **License:** GPL-3.0 [citation:1]  
-Bitpoll is a self-hosted tool for conducting polls about dates, times, or general questions. It sits in the same category as Rallly and Framadate for scheduling and decision-making polls. Deployable via Docker [citation:1].  
-**Best for:** Teams wanting a straightforward self-hosted scheduling poll tool with a GPL license.
+### 3. [decidim/decidim](https://github.com/decidim/decidim)
+[![GitHub stars](https://img.shields.io/github/stars/decidim/decidim?style=social&color=white)](https://github.com/decidim/decidim/stargazers)  
+**Tech Stack:** Ruby on Rails / Node.js / PostgreSQL / Docker | **License:** AGPL-3.0  
+Decidim is a participatory democracy and civic polling framework developed for governments, public institutions, and large associations. It allows organizations to host public consultations, participatory budgeting votes, citizen assemblies, and verifiable decision processes.  
+- **Best for:** Municipalities, civic organizations, universities, and large communities running large-scale voting consultations.
 
-### Framadate
-**Stack:** PHP | **License:** (Check repository)  
-Framadate is a long-standing open-source online service for planning appointments or making decisions quickly. Users create a poll, define dates or subjects, share the link, and participants discuss and decide [citation:1]. It is a simpler, established alternative in the scheduling poll space.  
-**Best for:** Organizations wanting a proven, lightweight scheduling poll tool without modern JavaScript dependencies.
+### 4. [ClaperCo/Claper](https://github.com/ClaperCo/Claper)
+[![GitHub stars](https://img.shields.io/github/stars/ClaperCo/Claper?style=social&color=white)](https://github.com/ClaperCo/Claper/stargazers)  
+**Tech Stack:** Elixir / Phoenix / LiveView / WebSockets | **License:** AGPL-3.0  
+Claper is an open-source, real-time alternative to Slido, AhaSlides, and Mentimeter for **live audience engagement**. Presenters can upload slides or create presentations, while audience members join via QR code on mobile devices to submit questions, upvote Q&A topics, vote in live polls, and express emoji reactions in real time.  
+- **Best for:** Conference speakers, workshop facilitators, and educators wanting a self-hosted live interactive presentation tool.
 
-### Librepolls
-**Stack:** Laravel / PHP / Docker | **License:** AGPLv3 [citation:5]  
-Librepolls allows creating and voting on polls without registering accounts, inspired by the defunct StrawPoll.me [citation:5]. Supports single or multiple choices per poll, with vote restriction options based on IP or browser. Deployable via Docker Compose. Configuration variables control poll limits (max choices, title length, slug length) [citation:5].  
-**Best for:** Teams wanting a simple, anonymous StrawPoll-style polling tool that can be self-hosted.
+### 5. [fsinfuhh/Bitpoll](https://github.com/fsinfuhh/Bitpoll)
+[![GitHub stars](https://img.shields.io/github/stars/fsinfuhh/Bitpoll?style=social&color=white)](https://github.com/fsinfuhh/Bitpoll/stargazers)  
+**Tech Stack:** Python / Django / PostgreSQL / Docker | **License:** GPL-3.0  
+Bitpoll (originally developed at TU Wien / FSInf) is a self-hosted polling application for coordinating dates, meeting times, and multi-choice questions. It provides both anonymous and authenticated voting, fine-grained access tokens, and a clean interface without third-party tracking.  
+- **Best for:** Academic faculties and privacy-centric groups looking for a clean, Python-based Doodle alternative.
 
-### QikPoll
-**Stack:** Bun / TypeScript / React / Redis | **License:** (Check repository)  
-QikPoll is a StrawPoll-style app for fast, no-signup polling with **live vote updates via WebSockets** [citation:11]. Create polls with 2–8 options, choose public or private visibility, and watch results update in real time. Uses Redis for storage with TTL expiration and includes anti-repeat guardrails. Exposes an MCP endpoint (`/api/mcp`) with tools like `create_poll` and `list_public_polls` for AI agent integration [citation:11].  
-**Best for:** Developers wanting a modern, real-time anonymous polling tool with MCP/AI agent accessibility.
+### 6. [devmahmud/Django-Poll-App](https://github.com/devmahmud/Django-Poll-App)
+[![GitHub stars](https://img.shields.io/github/stars/devmahmud/Django-Poll-App?style=social&color=white)](https://github.com/devmahmud/Django-Poll-App/stargazers)  
+**Tech Stack:** Python / Django / Bootstrap / SQLite / PostgreSQL | **License:** MIT  
+A full-featured polling web application built with Django. It provides authentication, poll creation, choice management, vote tracking with duplicate vote prevention, search filtering, and real-time result percentage calculation.  
+- **Best for:** Developers looking for a customizable, battle-tested Python/Django base for embedding polling systems into existing portals.
 
-### Prashna
-**Stack:** Python (local executable) | **License:** MIT [citation:13]  
-Prashna is a local-first live Q&A and quiz tool for sessions with an audience (training, lectures, workshops, town halls). Two core features: **anonymous Q&A** with participant upvoting, and **moderator-run quizzes** with single/multiple choice and versioned results [citation:13]. Runs on your own laptop with no server or subscription — one command installs it. Supports Cloudflare/ngrok tunnels so audiences can reach it over the internet. Includes a projector view with join code and QR code.  
-**Best for:** Educators and presenters wanting a zero-infrastructure, privacy-respecting Q&A and quiz tool that runs entirely on their own machine.
+### 7. [nextcloud/polls](https://github.com/nextcloud/polls)
+[![GitHub stars](https://img.shields.io/github/stars/nextcloud/polls?style=social&color=white)](https://github.com/nextcloud/polls/stargazers)  
+**Tech Stack:** PHP / Vue.js / TypeScript / Nextcloud App API | **License:** AGPL-3.0  
+An official community app for Nextcloud that turns any self-hosted cloud instance into an event-scheduling and opinion-polling hub. Features include anonymous or public voting, integration with Nextcloud address books and calendar invitations, access control, and encrypted shares.  
+- **Best for:** Existing Nextcloud users and organizations wanting integrated meeting polls and survey collection without separate servers.
 
-### Polly (manfredsteger)
-**Stack:** React / Express / PostgreSQL / Docker | **License:** (Check repository)  
-Polly is a modern self-hosted polling and scheduling app for teams. Supports schedule polls, surveys, and booking lists with email-based voting, real-time results via WebSockets, PDF export, and QR code sharing [citation:8]. Includes an API with OpenAPI specification, ICS calendar export, and a roadmap that includes AI voice/agentic poll creation and Keycloak SSO [citation:8]. Deploys via Docker with no cloud dependencies. Currently in beta.  
-**Best for:** Teams wanting a feature-rich self-hosted polling platform with scheduling, surveys, and real-time results in one tool.
+### 8. [hartwork/jawanndenn](https://github.com/hartwork/jawanndenn)
+[![GitHub stars](https://img.shields.io/github/stars/hartwork/jawanndenn?style=social&color=white)](https://github.com/hartwork/jawanndenn/stargazers)  
+**Tech Stack:** Python / Django / React / TypeScript / SQLite / Docker | **License:** AGPL-3.0  
+Jawanndenn is a lightweight, libre web application designed specifically to schedule meetings and coordinate group decisions without requiring accounts or tracking user cookies. Supports date picking, custom option voting, and instant Docker deployment.  
+- **Best for:** Individuals and small sysadmin teams looking for a low-resource scheduling poll tool.
 
-### open.mentimeter
-**Stack:** React / Node.js / Socket.io | **License:** MIT [citation:14]  
-open.mentimeter is a local-first Mentimeter alternative designed to run entirely over **local networks with zero cloud dependencies** [citation:14]. The presenter's laptop acts as the server; participants connect via browser. Features include live multiple-choice quizzes with speed bonuses, word clouds, Q&A with upvoting, a presenter remote view, and Excel export. Works offline over local Wi-Fi or mobile hotspot.  
-**Best for:** Trainers and educators in offline or privacy-sensitive environments needing live interactive quizzes without internet access.
+### 9. [framasoft/framadate](https://github.com/framasoft/framadate)
+[![GitHub stars](https://img.shields.io/github/stars/framasoft/framadate?style=social&color=white)](https://github.com/framasoft/framadate/stargazers)  
+**Tech Stack:** PHP / MariaDB / JavaScript | **License:** CeCILL-B (GPL-compatible)  
+Framadate is the long-standing French libre polling platform developed by the non-profit Framasoft. It allows anyone to create meeting availability polls or generic multi-choice decision polls with custom expiration dates and link-based voting.  
+- **Best for:** Non-profits and educational bodies seeking a proven, battle-tested PHP polling tool.
 
-### CEDIS Deck Manager
-**Stack:** Docker / Linux VPS | **License:** MIT [citation:9]  
-CEDIS Deck Manager is an open-source alternative to Kahoot, Mentimeter, Slido, and Poll Everywhere, built for educational use [citation:9]. Publishes interactive HTML presentations with activity control policies (always open, class window, presenter only, scheduled), privacy-by-design anonymization (no tracking cookies, IP truncation, DNT respect), and learning analytics dashboards. Includes an AI-assisted presentation-generation skill for Claude/ChatGPT. Self-hosted on any Linux VPS with Docker.  
-**Best for:** Educational institutions wanting a self-hostable, privacy-compliant alternative to commercial classroom polling platforms.
+### 10. [manfredsteger/polly](https://github.com/manfredsteger/polly)
+[![GitHub stars](https://img.shields.io/github/stars/manfredsteger/polly?style=social&color=white)](https://github.com/manfredsteger/polly/stargazers)  
+**Tech Stack:** React / Express / Node.js / PostgreSQL / Docker | **License:** MIT  
+A modern self-hosted polling and scheduling application designed for teams. Supports schedule polls, booking lists, and multi-question surveys with email-based voter verification, real-time WebSocket results, ICS calendar exports, and PWA capabilities.  
+- **Best for:** Modern engineering teams wanting an integrated scheduling and survey tool with WebSocket updates.
+
+### 11. [Rishi-ZAiFi/open.mentimeter](https://github.com/Rishi-ZAiFi/open.mentimeter)
+[![GitHub stars](https://img.shields.io/github/stars/Rishi-ZAiFi/open.mentimeter?style=social&color=white)](https://github.com/Rishi-ZAiFi/open.mentimeter/stargazers)  
+**Tech Stack:** React / Node.js / Socket.io / CSS3 | **License:** MIT  
+A local-first, zero-cloud alternative to Mentimeter designed to run offline over local area networks (LAN) or portable Wi-Fi hotspots. Features include presenter view, live multiple-choice quizzes with timer speed bonuses, word clouds, and anonymous Q&A upvoting.  
+- **Best for:** Offline workshops, field training, and privacy-sensitive air-gapped environments.
+
+### 12. [imambujshukla7/prashna](https://github.com/imambujshukla7/prashna)
+[![GitHub stars](https://img.shields.io/github/stars/imambujshukla7/prashna?style=social&color=white)](https://github.com/imambujshukla7/prashna/stargazers)  
+**Tech Stack:** Node.js / Express / React / WebSockets | **License:** MIT  
+A local-first live audience Q&A and quiz software platform designed for interactive town halls, webinars, and classroom lectures with anonymous audience voting and upvoting.  
+- **Best for:** Interactive lecture sessions needing anonymous audience feedback and quick quiz evaluations.
+
+### 13. [nearbycoder/qikpoll](https://github.com/nearbycoder/qikpoll)
+[![GitHub stars](https://img.shields.io/github/stars/nearbycoder/qikpoll?style=social&color=white)](https://github.com/nearbycoder/qikpoll/stargazers)  
+**Tech Stack:** TypeScript / Bun / React 19 / Redis / WebSockets | **License:** MIT  
+A lightweight StrawPoll-style application built for high-speed, no-signup polling with live WebSocket updates, Redis TTL expiration, anti-repeat vote guardrails, and an MCP (Model Context Protocol) API endpoint for AI agents.  
+- **Best for:** Developers looking for modern Redis-backed live polling and AI agent integration.
+
+### 14. [danielhn/librepolls](https://github.com/danielhn/librepolls)
+[![GitHub stars](https://img.shields.io/github/stars/danielhn/librepolls?style=social&color=white)](https://github.com/danielhn/librepolls/stargazers)  
+**Tech Stack:** PHP / Laravel / Docker Compose | **License:** AGPL-3.0  
+A privacy-respecting self-hosted StrawPoll alternative that allows creating instant multi-choice polls with IP and browser-based anti-ballot stuffing mechanisms without requiring participant accounts.  
+- **Best for:** Minimalist self-hosted quick community polling.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Poll Type | No-Account Voting | Real-Time Results | Self-Hosted | Best For |
-|----------|---------|-----------|-------------------|-------------------|-------------|----------|
-| **Poll Everywhere** | Proprietary | Live audience | ✅ | ✅ | ❌ | Live presentations |
-| **Slido** | Proprietary | Q&A + polls | ✅ | ✅ | ❌ | Meeting engagement |
-| **Mentimeter** | Proprietary | Interactive slides | ✅ | ✅ | ❌ | Presentations |
-| **Kahoot!** | Proprietary | Gamified quizzes | ✅ | ✅ | ❌ | Classroom competition |
-| **Doodle** | Proprietary | Scheduling | ✅ | (Async) | ❌ | Meeting scheduling |
-| **StrawPoll** | Proprietary | Quick polls | ✅ | (Async) | ❌ | Instant decisions |
-| **Rallly** | AGPLv3 | Scheduling | ✅ | (Async) | ✅ | Doodle replacement |
-| **Claper** | (Check) | Live audience | (Check) | ✅ | ✅ | Slido/Menti alternative |
-| **Bitpoll** | GPL-3.0 | Scheduling/general | (Check) | (Async) | ✅ | Self-hosted scheduling |
-| **Framadate** | (Check) | Scheduling | ✅ | (Async) | ✅ | Simple proven scheduling |
-| **Librepolls** | AGPLv3 | Quick polls | ✅ | (Async) | ✅ | StrawPoll replacement |
-| **QikPoll** | (Check) | Quick polls | ✅ | ✅ (WebSocket) | ✅ | Real-time anonymous polls |
-| **Prashna** | MIT | Q&A + quizzes | ✅ | ✅ | ✅ (local) | Local Q&A/quiz tool |
-| **Polly (manfred)** | (Check) | Scheduling/surveys | ✅ (email) | ✅ | ✅ | All-in-one team polling |
-| **open.mentimeter** | MIT | Quizzes/word clouds | ✅ | ✅ | ✅ (LAN) | Offline live polling |
-| **CEDIS Deck Manager** | MIT | Educational polling | ✅ | ✅ | ✅ | Education + privacy |
+| Tool | Category | Deployment | License | No-Account Voting | Real-Time Sync | Primary Use Case |
+|:---|:---|:---|:---|:---:|:---:|:---|
+| **Kahoot!** | SaaS | Cloud | Proprietary | ✅ | ✅ | Gamified classroom & corporate team quizzes |
+| **Doodle** | SaaS | Cloud | Proprietary | ✅ | Async | Business meeting scheduling & availability |
+| **Typeform** | SaaS | Cloud | Proprietary | ✅ | Async | Conversational rating scale surveys & NPS |
+| **Mentimeter** | SaaS | Cloud | Proprietary | ✅ | ✅ | Interactive presenter slides & live audience polling |
+| **Slido** | SaaS | Cloud | Proprietary | ✅ | ✅ | Enterprise town hall Q&A and meeting polls |
+| **Polly for Teams** | SaaS | Cloud / Native | Proprietary | ❌ (Teams/Slack) | ✅ | Workplace chat standups, pulse checks, & team polls |
+| **Poll Everywhere** | SaaS | Cloud | Proprietary | ✅ | ✅ | Slide presentation add-ins & live audience feedback |
+| **StrawPoll** | SaaS | Cloud | Proprietary | ✅ | ✅ | Instant anonymous single-link public polls |
+| **Rallly** | Open-Source | Self-Hosted / Docker | AGPL-3.0 | ✅ | Async | Clean Doodle alternative for group availability |
+| **Loomio** | Open-Source | Self-Hosted / Docker | AGPL-3.0 | ❌ (Account/Invite) | ✅ | Consensus voting, proposals, & cooperative governance |
+| **Decidim** | Open-Source | Self-Hosted / Docker | AGPL-3.0 | ❌ (Civic Auth) | ✅ | Public citizen assemblies & participatory democracy |
+| **Claper** | Open-Source | Self-Hosted / Docker | AGPL-3.0 | ✅ | ✅ (LiveView) | Modern Slido/Mentimeter alternative for live talks |
+| **Bitpoll** | Open-Source | Self-Hosted / Docker | GPL-3.0 | ✅ | Async | Lightweight privacy-first meeting scheduling |
+| **Django-Poll-App** | Open-Source | Self-Hosted / Django | MIT | ❌ (Auth) | Async | Extensible Python voting engine |
+| **Nextcloud Polls** | Open-Source | Nextcloud App | AGPL-3.0 | ✅ | Async | Internal organization & calendar-integrated polls |
+| **Jawanndenn** | Open-Source | Self-Hosted / Docker | AGPL-3.0 | ✅ | Async | Minimalist no-cookie date scheduling |
+| **Framadate** | Open-Source | Self-Hosted / PHP | CeCILL-B | ✅ | Async | Non-profit appointment & group decision voting |
+| **Polly (manfred)** | Open-Source | Self-Hosted / Docker | MIT | ✅ (Email) | ✅ (WebSockets) | Modern team polling, booking lists, & surveys |
+| **open.mentimeter** | Open-Source | Local-First / LAN | MIT | ✅ | ✅ (Socket.io) | Offline Wi-Fi live quizzes & word clouds |
+| **Prashna** | Open-Source | Local / Node.js | MIT | ✅ | ✅ (WebSockets) | Local-first audience Q&A and live quiz sessions |
+| **QikPoll** | Open-Source | Self-Hosted / Bun | MIT | ✅ | ✅ (WebSockets) | Fast anonymous real-time Redis polling & MCP API |
+| **Librepolls** | Open-Source | Self-Hosted / Docker | AGPL-3.0 | ✅ | Async | Simple self-hosted StrawPoll alternative |
+
+---
+
+## 🔍 Evaluation & Selection Criteria
+
+When choosing between commercial SaaS and self-hosted open-source polling solutions, evaluate:
+
+1. **Participation Friction**: Does the tool allow instant responses via QR code or direct URL without forcing participants to register an account? (e.g., Rallly, Claper, StrawPoll).
+2. **Synchronous vs. Asynchronous Workflows**: 
+   - *Synchronous (Live Events)*: Requires low-latency WebSockets / Server-Sent Events for instant slide and leaderboard feedback (Slido, Mentimeter, Claper, open.mentimeter).
+   - *Asynchronous (Scheduling & Consensus)*: Requires timezone conversion, calendar integration (.ics), and structured proposal voting (Doodle, Rallly, Loomio).
+3. **Data Privacy & Compliance**: Organizations with strict GDPR, HIPAA, or air-gap constraints require self-hosted on-premises or local-first architectures (open.mentimeter, Bitpoll, Nextcloud Polls).
+4. **Anti-Ballot-Stuffing Safeguards**: Support for IP throttling, browser fingerprinting, single-use email tokens, or SSO/OAuth integration to maintain vote integrity.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source User Polling or Quick Decision Making tool that should be listed here, please open a pull request with:
+Contributions are warmly welcome! If you know of an awesome User Polling or Quick Decision Making platform that belongs here:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
+1. Fork this repository.
+2. Add your suggestion to the appropriate section or table with valid project metadata, pricing/license details, and GitHub links.
+3. Open a Pull Request following conventional commit guidelines.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository is distributed under the [Creative Commons Zero v1.0 Universal License (CC0-1.0)](LICENSE). All individual software projects listed retain their respective commercial or open-source licenses.
